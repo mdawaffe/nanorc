@@ -10,6 +10,10 @@
     r mixins/function.nanorc
     d
 }
+/^+METHOD/ {
+    r mixins/method.nanorc
+    d
+}
 /^+CCOMMENT/ {
     r mixins/ccomment.nanorc
     d
